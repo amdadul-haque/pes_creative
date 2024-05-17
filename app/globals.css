@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-x: hidden;
+}
 
 .container-wrapper {
   @apply w-full max-w-[500px] px-4 sm:px-0 md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto;
@@ -21,7 +24,7 @@
 }
 
 .section-header {
-  @apply text-white uppercase sfpro-medium text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[80px] leading-none mx-auto
+  @apply text-white uppercase sfpro-medium text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[80px] leading-none mx-auto
 }
 
 .bg-earth {

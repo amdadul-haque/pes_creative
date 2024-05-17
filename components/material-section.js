@@ -6,7 +6,7 @@ const MaterialSection = () => {
   return (
     <div className='bg-gradient-to-b from-[#040816] to to-[#1C0B5B] '>
       <section className='section relative flex items-center justify-center sfpro-medium'>
-        <div className='container-wrapper h-full flex items-center justify-center'>
+        <div className='container-wrapper h-full flex items-center justify-center z-[10]'>
           <div className='flex flex-col justify-center'>
             <motion.div
               initial={{ opacity: 0, y: 150 }}
@@ -20,7 +20,7 @@ const MaterialSection = () => {
         </div>
 
         <motion.div
-          className='absolute top-0 translate-y-[-150%] left-[10%]'
+          className='absolute w-[30px] sm:w-[50px] lg:w-full top-0 translate-y-[-150%] left-[10%]'
           animate={{
             scale: [0.4, 0.7, 0.4],
             // y: [-50, -50, -50]
@@ -31,7 +31,7 @@ const MaterialSection = () => {
 
 
         <motion.div
-          className='absolute top-[18%] left-[25%]'
+          className='absolute w-[30px] sm:w-[50px] lg:w-full top-[18%] left-[25%]'
           animate={{
             scale: [0.1, .5, 0.1],
           }}
@@ -40,7 +40,7 @@ const MaterialSection = () => {
         </motion.div>
 
         <motion.div
-          className='absolute top-[68%] left-[35%]'
+          className='absolute w-[30px] sm:w-[50px] lg:w-full top-[68%] left-[35%]'
           animate={{
             scale: [0.1, .5, 0.1],
           }}
@@ -49,7 +49,7 @@ const MaterialSection = () => {
         </motion.div>
 
         <motion.div
-          className='absolute top-[68%] right-[35%]'
+          className='absolute w-[30px] sm:w-[50px] lg:w-full top-[68%] right-[35%]'
           animate={{
             scale: [0.3, .8, 0.3],
           }}
@@ -58,7 +58,7 @@ const MaterialSection = () => {
         </motion.div>
 
         <motion.div
-          className='absolute top-[8%] left-[45%]'
+          className='absolute w-[30px] sm:w-[50px] lg:w-full top-[8%] left-[45%]'
           animate={{
             scale: [0.5, 1, 0.5],
           }}
@@ -67,7 +67,7 @@ const MaterialSection = () => {
         </motion.div>
 
         <motion.div
-          className='absolute top-[5%] right-[2%]'
+          className='absolute w-[30px] sm:w-[50px] lg:w-full top-[5%] right-[2%]'
           animate={{
             scale: [0.4, 0.7, 0.4],
             // rotate: [0, 0, 270, 270, 0],
@@ -78,8 +78,8 @@ const MaterialSection = () => {
         </motion.div>
 
 
-        <img src="./images/blob.png" alt="blob" className='absolute left-0 translate-x-[-50%] top-[40%] w-32 md:w-[180px] lg:w-[200px] xl:w-[300px]' />
-        <img src="./images/blob.png" alt="blob" className='absolute right-0 translate-x-[50%] top-[30%] w-32 md:w-[180px] lg:w-[200px] xl:w-[300px]' />
+        <img src="./images/blob.png" alt="blob" className='absolute left-0 translate-x-[-50%] top-[40%] w-24 sm:w-32 md:w-[180px] lg:w-[200px] xl:w-[300px]' />
+        <img src="./images/blob.png" alt="blob" className='absolute right-0 translate-x-[50%] top-[30%] w-24 sm:w-32 md:w-[180px] lg:w-[200px] xl:w-[300px]' />
       </section>
       <section className='section xl:h-[1000px] flex items-center'>
         <div className='container-wrapper h-full flex items-center justify-center '>

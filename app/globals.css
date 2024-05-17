@@ -24,6 +24,7 @@ body {
 }
 
 .section-header {
+  word-spacing: .4rem;
   @apply text-white uppercase sfpro-medium text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[80px] leading-none mx-auto
 }
 

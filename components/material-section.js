@@ -99,7 +99,11 @@ const MaterialSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: .6 }}
           >
-            <h2 className='section-header'> what's the difference <br />the difference is <br />tempure &reg;</h2>
+            <div className='flex justify-center'>
+              <img src="./images/logo-animation.png" alt="logo" className='mb-12' />
+            </div>
+            {/* <h2 className='section-header'> what's the difference <br />the difference is <br />tempure &reg;</h2> */}
+            <h2 className='section-header'>the difference is</h2>
           </motion.div>
         </div>
       </section>

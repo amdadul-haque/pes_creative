@@ -4,13 +4,14 @@ import { motion } from 'framer-motion'
 
 const MaterialSection = () => {
   return (
-    <div className='bg-gradient-to-b from-[#040816] to to-[#1C0B5B] '>
+  
+    <div className='bg-material-gradient'>
       <section className='section relative flex items-center justify-center sfpro-medium'>
         <div className='container-wrapper h-full flex items-center justify-center z-[10]'>
           <div className='flex flex-col justify-center'>
             <motion.div
-              initial={{ opacity: 0, y: 150 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: [0, 0, 0, 0, 0], opacity: 0, y: 150 }}
+              whileInView={{ opacity: [0, 0.1, 0.3, 0.5, 1], opacity: 1, y: 0 }}
               transition={{ duration: .6 }}
             >
               <h2 className='section-header mb-10'> a material</h2>
@@ -70,8 +71,6 @@ const MaterialSection = () => {
           className='absolute w-[30px] sm:w-[50px] lg:w-full top-[5%] right-[2%]'
           animate={{
             scale: [0.4, 0.7, 0.4],
-            // rotate: [0, 0, 270, 270, 0],
-            // borderRadius: ["20%", "20%", "50%", "50%", "20%"],
           }}
           transition={{ duration: 8, repeat: Infinity }}>
           <img src="./images/dot.png" alt="blob" className='' />
@@ -84,8 +83,8 @@ const MaterialSection = () => {
       <section className='section xl:h-[1000px] flex items-center'>
         <div className='container-wrapper h-full flex items-center justify-center '>
           <motion.div
-            initial={{ opacity: 0, y: 150 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: [0, 0, 0, 0, 0], opacity: 0, y: 150 }}
+            whileInView={{ opacity: [0, 0.1, 0.3, 0.5, 1], opacity: 1, y: 0 }}
             transition={{ duration: .6 }}
           >
             <h2 className='section-header '> that adapts like <br /> nothing else on <br /> the earth</h2>
@@ -95,8 +94,8 @@ const MaterialSection = () => {
       <section className='section xl:h-[1000px] flex items-center'>
         <div className='container-wrapper h-full flex items-center justify-center'>
           <motion.div
-            initial={{ opacity: 0, y: 150 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: [0, 0, 0, 0, 0], opacity: 0, y: 150 }}
+            whileInView={{ opacity: [0, 0.1, 0.3, 0.5, 1], opacity: 1, y: 0 }}
             transition={{ duration: .6 }}
           >
             <div className='flex justify-center'>

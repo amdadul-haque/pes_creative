@@ -8,10 +8,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        // "video": "url('./images/video-placeholder.jpg')",
+        // 'material-gradient': 'linear-gradient(to bottom right, #040816, #1C0B5B)'
+        // 'material-gradient': 'linear-gradient(to bottom right, #040816, #0a0b38, #140864, #1C0B5B)'
+        'material-gradient': 'linear-gradient(to bottom right, #040816, #331c38, #45263d, #1C0B4B)'
+        // 'material-gradient': 'linear-gradient(to bottom right, #040816, #2a2047, #493256, #1C0B5B)'
+        // 'material-gradient': 'linear-gradient(to bottom right, #040816, #253545, #405066, #1C0B5B)'
+        // 'material-gradient': 'linear-gradient(to bottom right, #040816, #333456, #504b6e, #1C0B5B)'
+        // 'material-gradient': 'linear-gradient(to bottom right, #040816, #1d3348, #3a4f65, #1C0B5B)'
+        // 'material-gradient': 'linear-gradient(to bottom right, #040816, #1d3348, #3a4f65, #1C0B5B)'
+        // 'material-gradient': 'linear-gradient(to bottom right, #040816, #29294c, #4b4b70, #1C0B5B)'
+        // 'material-gradient': 'linear-gradient(to bottom right, #040816, #2c2f4f, #555676, #1C0B5B)'
+
       },
     },
   },

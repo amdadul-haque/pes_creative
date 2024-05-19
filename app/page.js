@@ -1,10 +1,9 @@
-import { HeroSection, MaterialSection } from "@/components";
+import HomePage from "@/components/home-page";
 
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <MaterialSection />
+      <HomePage />
     </>
   );
 }

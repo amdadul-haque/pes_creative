@@ -52,18 +52,12 @@ const HeroSection = () => {
             <h2 className='section-header'> </h2>
           </motion.div> */}
           <AnimatedHeader>
-            better pressure reliefe &
+            better pressure reliefe & <br />
+            <span className='text-[50%]'>better motiin absorbtion</span>
           </AnimatedHeader>
         </div>
       </section>
-      <section className='section xl:h-[1000px] flex items-center bg-motion'>
-        <div className='container-wrapper h-full flex items-center justify-center'>
-          
-          <AnimatedHeader>
-            better motiin absorbtion
-          </AnimatedHeader>
-        </div>
-      </section>
+      
     </div >
   )
 }

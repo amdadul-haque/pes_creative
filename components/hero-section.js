@@ -58,7 +58,7 @@ const HeroSection = () => {
         >
           <span className="normal-case">
             But what's the  difference <br />
-            <span className='text-[50%] leading-[0px]'>Better pressure reliefe & better motiin absorbtion</span>
+            <span className='text-[50%] leading-[0px]'>Better pressure reliefe & motion absorbtion</span>
           </span>
         </motion.h2>
       </section >
